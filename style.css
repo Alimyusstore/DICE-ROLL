@@ -1,0 +1,29 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label, button{
+    display: block;
+    font-size: 2.5em;
+}
+
+button{
+    padding: 5px 25px;
+    color: aliceblue;
+    border-radius: 10px;
+    background-image: repeating-radial-gradient(circle, purple 10%, rgb(7, 91, 7) 20%, rgb(223, 134, 27) 35%);
+}
+
+button:active {
+    opacity: 50%;
+}
+
+button:hover {
+    background-image: repeating-linear-gradient(to right bottom, purple 10%, rgb(7, 91, 7) 20%, rgb(223, 134, 27) 35%);
+
+}
